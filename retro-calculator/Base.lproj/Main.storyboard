@@ -279,16 +279,30 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFb-39-uaE">
+                                <rect key="frame" x="209" y="489" width="182" height="62"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Evl-2t-kSe"/>
+                                    <constraint firstAttribute="width" constant="182" id="VwI-bW-62t"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rdn-rG-vMn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="niy-5l-vEi" firstAttribute="centerY" secondItem="PCP-ll-5ss" secondAttribute="centerY" constant="44" id="6gy-u6-TmE"/>
                             <constraint firstItem="fck-LW-TdL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="B1L-fa-dns"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kFb-39-uaE" secondAttribute="bottom" constant="49" id="Fjh-4L-wyG"/>
                             <constraint firstItem="esn-fd-f2t" firstAttribute="top" secondItem="9qU-KU-SW9" secondAttribute="bottom" constant="26" id="IWr-kB-1DI"/>
                             <constraint firstItem="RYu-xB-jGq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LNs-ya-R4S"/>
                             <constraint firstItem="9qU-KU-SW9" firstAttribute="leading" secondItem="esn-fd-f2t" secondAttribute="leading" id="QBl-kb-hxh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fck-LW-TdL" secondAttribute="bottom" id="R8j-o1-nBa"/>
+                            <constraint firstItem="kFb-39-uaE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VBy-Nj-qgW"/>
                             <constraint firstItem="niy-5l-vEi" firstAttribute="centerX" secondItem="PCP-ll-5ss" secondAttribute="centerX" id="XZv-sd-bdv"/>
                             <constraint firstItem="9qU-KU-SW9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-10" id="ZpA-rC-qEy"/>
                             <constraint firstAttribute="trailing" secondItem="fck-LW-TdL" secondAttribute="trailing" id="bh8-GH-3te"/>
@@ -321,6 +335,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
